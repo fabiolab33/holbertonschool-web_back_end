@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Módulo que contiene una función para calcular el suelo de un número.
+Module that contains the function floor which takes a float n as argument.
 """
 
 
 def floor(n: float) -> int:
     """
-    Calcula el suelo (floor) de un número flotante y lo devuelve como entero.
+    Return the floor of a float as an integer.
     """
     return int(n) if n >= 0 else int(n) - 1

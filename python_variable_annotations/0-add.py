@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Modulo que contiene una función para sumar dos números flotantes.
+Module that contains the function add which takes two floats as arguments.
 """
 
 
 def add(a: float, b: float) -> float:
     """
-    Suma dos números flotantes y devuelve el resultado.
+    Sum two floats and return the result as a float.
     """
     return a + b

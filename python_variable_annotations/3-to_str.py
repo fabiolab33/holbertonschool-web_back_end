@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Módulo que contiene una función para convertir un flotante a cadena.
+Module that contains the function to_str which takes a float n as argument.
 """
 
 
 def to_str(n: float) -> str:
     """
-    Devuelve la representación en cadena de un número flotante.
+    Return the string representation of a float.
     """
     return str(n)
