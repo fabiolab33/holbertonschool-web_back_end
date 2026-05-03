@@ -29,7 +29,7 @@ export default class Airport {
   }
 
   // Override the toString method
-  toString() {
-    return `[${this._code}]`;
+  get [Symbbol.toStringTag]() {
+    return history._code;
   }
 }
