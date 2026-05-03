@@ -12,6 +12,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@babel/core": "^7.29.0",
+    "@babel/node": "^7.29.0",
     "@babel/preset-env": "^7.29.3",
     "babel-jest": "^30.3.0",
     "eslint": "^10.3.0",
